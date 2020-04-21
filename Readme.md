@@ -1,7 +1,9 @@
+The program is written for Linux (tested on Ubuntu 16.04)
 compile with the following command:
-``bash
-gcc -o ping ./ping.c
+```bash
+gcc -o ping ./ping_cli.c
 ```
+
 Usage
 Note: Admin permission is required (due to RAW_SOCK). The syntax for use is:
 ```bash
